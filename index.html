@@ -8,7 +8,13 @@
     <style>
         body {
             font-family: 'Open Sans', Arial, sans-serif; /* Daha okunaklı bir font */
-            background: #1e1e1e; /* Sabit koyu arka plan */
+            /* Arka plan resmini URL'den alacak şekilde güncellendi */
+            background-image: url('https://venustr.github.io/YEKAPSMP-2/venus.png');
+            background-size: cover; /* Resmi tüm alanı kaplayacak şekilde ölçeklendirir */
+            background-position: center center; /* Resmi ortalar */
+            background-attachment: fixed; /* Sayfa kaydırılsa bile resmi sabit tutar */
+            background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+            background-color: #1e1e1e; /* Resim yüklenmezse veya boşluk kalırsa gösterilecek renk */
             color: #f0f0f0;
             margin: 0;
             padding: 20px;
@@ -16,17 +22,12 @@
             font-size: 1.1em; /* Genel yazı boyutunu biraz büyüttüm */
         }
         .header-image {
-            display: block; /* Resmi blok eleman yapar */
-            margin: 0 auto 30px auto; /* Resmi ortalar ve altından boşluk bırakır */
-            max-width: 100%; /* Resmin genişliğini container'a sığacak şekilde ayarlar */
-            height: auto;
-            border-radius: 8px; /* Resme hafif yuvarlak köşeler */
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Resme gölge ekledim */
+            display: none; /* Önceki img etiketi arka plan olduğu için gizlendi */
         }
         .container {
             max-width: 900px;
             margin: auto;
-            background: #202020; /* Daha koyu bir container arka planı */
+            background: rgba(32, 32, 32, 0.9); /* Arka plan resmiyle daha iyi karışması için hafif şeffaflık eklendi */
             padding: 30px; /* İç boşluğu artırdım */
             border-radius: 12px; /* Köşeleri daha da yuvarladım */
             box-shadow: 0 0 20px rgba(0,0,0,0.6); /* Daha belirgin bir gölge */
@@ -49,7 +50,7 @@
             color: #d0d0d0;
         }
         .rule-section {
-            background: #2b2b2b; /* Bölümlere daha belirgin bir koyu arka plan */
+            background: rgba(43, 43, 43, 0.9); /* Arka plan resmiyle daha iyi karışması için hafif şeffaflık eklendi */
             padding: 25px; /* İç boşluğu artırdım */
             border-radius: 10px;
             margin-bottom: 25px;
@@ -58,7 +59,7 @@
         pre {
             white-space: pre-wrap;
             overflow-x: auto;
-            background: #1a1a1a; /* Kod bloklarına daha koyu bir arka plan */
+            background: rgba(26, 26, 26, 0.95); /* Kod bloklarına daha koyu bir arka plan ve hafif şeffaflık */
             color: #a9b7c6; /* Kod metni rengi */
             padding: 15px;
             border-radius: 8px;
@@ -67,7 +68,7 @@
             border: 1px solid #333;
         }
         .note {
-            background: #3a3a3a; /* Not kutusunun arka planı */
+            background: rgba(58, 58, 58, 0.9); /* Not kutusunun arka planı ve hafif şeffaflık */
             padding: 15px;
             border-radius: 8px;
             margin-top: 20px;
@@ -88,17 +89,17 @@
             vertical-align: top;
         }
         th {
-            background-color: #3a3a3a; /* Başlık hücrelerinin arka planı */
+            background-color: rgba(58, 58, 58, 0.9); /* Başlık hücrelerinin arka planı ve hafif şeffaflık */
             color: #f0f0f0;
             font-weight: 600; /* Kalın font */
         }
         td {
-            background-color: #2f2f2f; /* İçerik hücrelerinin arka planı */
+            background-color: rgba(47, 47, 47, 0.9); /* İçerik hücrelerinin arka planı ve hafif şeffaflık */
             color: #e0e0e0;
         }
         /* Kitap görünümü için özel stil */
         .book-example {
-            background: #2f2f2f;
+            background: rgba(47, 47, 47, 0.9);
             border: 1px solid #444;
             padding: 20px;
             border-radius: 8px;
@@ -112,7 +113,7 @@
     </style>
 </head>
 <body>
-    <img src="venus.png" alt="Venüs Görseli" class="header-image">
+    <img src="https://venustr.github.io/YEKAPSMP-2/venus.png" alt="Venüs Görseli" class="header-image">
 
 <div class="container">
     <h1>YEKAPSMP 2 – Kural Kitabı</h1>
@@ -596,3 +597,25 @@ Bir oyuncu bir ülkenin resmi vatandaşı olabilmek için oyuncuya lideri taraf�
                 </tr>
                 <tr>
                     <td>Kalıcı Ban</td>
+                    <td>DP ve eşyalar sunucuya eşitçe dağıtılır</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            Eğer YEKAP oyundaysa ve kurallarla ilgili bir değişikliği sözde yaptıysa onun sözüne karşı konulamaz ve uyulmak zorundadır. Bu kurallarda açık bulmaya çalışacak biri olursa diye yazılmış bir cümledir, itirazınızı kabul etmeyeceğim.
+            Herkes kuralları okumuş sayılır.
+        </div>
+    </div>
+
+    <div class="rule-section">
+        <h2>Website Ve Kural Hakları</h2>
+        <pre>
+Website hakları egolente aittir.
+Hakları YEKAP'a aittir.
+-YEKAP
+        </pre>
+    </div>
+
+</div>
+</body>
+</html>
