@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YEKAPSMP 2 – Kural Kitabı</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #1e1e1e;
-            color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: #2b2b2b;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.4);
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        .rule-section {
-            background: #333;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        pre {
-            white-space: pre-wrap;
-            overflow-x: auto;
-        }
-        .note {
-            background: #444;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        th, td {
-            border: 1px solid #555;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #444;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YEKAPSMP 2 – Kural Kitabı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* Orijinal Arka Plan Kaldırıldı */
+            color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+
+            /* YENİ ARKA PLAN AYARLARI */
+            background-image: url('venus.png');
+            background-size: cover; /* Oranı koruyarak tam kaplama */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Sayfayı kaydırırken resmin sabit kalması */
+            background-color: #1e1e1e; /* Resim yüklenmezse veya saydam ise yedek renk */
+            /* YENİ ARKA PLAN AYARLARI SONU */
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #2b2b2b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .rule-section {
+            background: #333;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        pre {
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        .note {
+            background: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #444;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-    <h1>YEKAPSMP 2 – Kural Kitabı</h1>
+    <h1>YEKAPSMP 2 – Kural Kitabı</h1>
 
-    <div class="rule-section">
-        <h2>Sunucu Detayları</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>Sunucu Detayları</h2>
+        <pre>
 Sunucu IP: YEKAPSMP2.aternos.me
 Sunucu Sürüm: 1.21.1 Java
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>1️⃣ Temel Kaynaklar</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>1️⃣ Temel Kaynaklar</h2>
+        <pre>
 Altın (💰) → Para birimi, ticaret ve tazminat için.
 Elmas (💎) → Diplomatik güç (DP)
 
@@ -78,12 +86,12 @@ Elmaslar örste "DP" olarak isimlendirilebilir.
 DP başka amaçla asla ama kullanılamaz (Ekipman yapmak vb.)
 Oyuncular tarafından sorulduğunda güncel DP miktarı söylenmek zorundadır.
 Normal elmaslar zırh, silah ve ticarette serbest; çalınabilir, satılabilir, verilebilir. DP çalınamaz, satılamaz, verilemez.
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>2️⃣ Temel Kurallar</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>2️⃣ Temel Kurallar</h2>
+        <pre>
 Elytra Overworld ve Nether’da yasaktır.
 Dupe farm'lar ve sunucuda lag yapabilecek olan farm'lar yasaktır (TNT dupe, kum/çakıl dupe, eşya dupe vb.)
 X-ray açmak, glitch yapmak, glitch kullanarak bir kişiye zarar vermek kesinlikle yasaktır. (lag yapmayacak şekilde tavuk farmı gibi masumtrack farmlar yapacaksanız, entity cramming'i önlemek için sarmaşık kullanabilirsiniz.)
@@ -130,12 +138,12 @@ Savaş ve kaçma:
 
 Savaş ilan edildiğinde kaçmak yasaktır; teslim olunabilir.
 Gizli saldırı, darbe veya iç savaş durumunda kaçmak mümkündür.
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>3️⃣ Savaş Sistemi</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>3️⃣ Savaş Sistemi</h2>
+        <pre>
 Savaş ilan edildiğinde kaçmak yasaktır; teslim olunabilir.
 Gizli saldırı, darbe veya iç savaş durumunda kaçmak mümkündür (bir villain arc başlangıcı)
 Her savaş sonrası her tarafın da antlaşma imzalaması kesinlikle zorunludur.
@@ -150,12 +158,12 @@ Eğer A oyuncusu bir kez bile öldüyse savaşın geri kalanına karışamaz, bi
 Biri öldüğünde karşı taraf ölen oyuncunun teçhizatlarını toplayıp, kuşanabilir. Aynı şey, ölen oyuncunun tarafında olan birisi için de geçerlidir.
 
 NOT: Savaş stratejisini ayarlamak tamamen size kalmıştır. Askerler savaşta ölmek yerine geri çekilebiliyorlarsa ya da kaçabiliyorlarsa ya da karşı tarafa geçmek istiyorlarsa ve karşı taraf bunu sorun etmiyorsa bunları yapabilirler. (kaçmak veya karşı tarafa geçmek, vatan hainliği sayılma ihtimali çok yüksektir(e bi zahmet))
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>4️⃣ Saldırmazlık Paktı & Anlaşma & Antlaşma Sistemi</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>4️⃣ Saldırmazlık Paktı & Anlaşma & Antlaşma Sistemi</h2>
+        <pre>
 Saldırmazlık Paktları:
 Ülkelerin birbirlerine saldırmaması için imzaladıkları pakttır.
 Belirli bir bitiş tarihi verilmek zorundadır. Verilen zamanın detay miktarı önemlidir, mesela sadece bitiş tarihi 19.11.2025 diye belirtilmiş ise o gün her hangi bir saatte bu pakt bitirilebilir veya bozulabilir. (gerçek hayat zamanı, gün-ay-yıl)
@@ -171,198 +179,196 @@ Her savaş sonrası her tarafın da bir barış antlaşması imzalaması kesinli
 Her tarafta da en az bir kopya bulunmak zorundadır (ÖRN: A İttifak'ının lideri B İttifak'ının liderinin imzaladığı bir antlaşmaya sahip olmak zorundadır, aynı şey diğer şekilde de geçerlidir (eğer savaş olmuşsa ve bitmişse)).
 
 Aşağıda belirli savaş senaryoları için olan yapılabilecek barış antlaşmalarını görebilirsiniz. Barış antlaşmaların da istenen şeylerin büyüklüğü arada ki DP farkına göre değişkenlik gösterir.
-        </pre>
-        
-        <h3>Senaryo ve Antlaşma Detayları</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Senaryo</th>
-                    <th>DP Farkı Aralığı</th>
-                    <th>Uygulanabilecek Barış Hükümleri</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="5">1: A vs B (Kazanan A, A DP > B DP)</td>
-                    <td>1-8</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>9-17</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>18-26</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>27-47</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>48+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td rowspan="5">2: A vs B (Kazanan A, B DP > A DP)</td>
-                    <td>1-12</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>13-25</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>26-38</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>39-53</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>54+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (32 Altın 28 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td rowspan="5">3: A vs B (Kazanan A, A DP = B DP)</td>
-                    <td>1-10</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>11-21</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>22-32</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>33-43</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>50+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td rowspan="5">4: A İttifakı vs B İttifakı (Kazanan A İttifakı, A DP > B DP)</td>
-                    <td>1-16</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>17-33</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>34-50</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>66-97</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>98+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td rowspan="5">5: A İttifakı vs B İttifakı (Kazanan A İttifakı, B DP > A DP)</td>
-                    <td>1-24</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>25-49</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>50-74</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>75-122</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>123+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (32 Altın 28 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td rowspan="5">6: A İttifakı vs B İttifakı (Kazanan A İttifakı, A DP = B DP)</td>
-                    <td>1-20</td>
-                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
-                </tr>
-                <tr>
-                    <td>21-41</td>
-                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
-                </tr>
-                <tr>
-                    <td>42-62</td>
-                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>63-102</td>
-                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
-                </tr>
-                <tr>
-                    <td>103+</td>
-                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        </pre>
+        
+        <h3>Senaryo ve Antlaşma Detayları</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Senaryo</th>
+                    <th>DP Farkı Aralığı</th>
+                    <th>Uygulanabilecek Barış Hükümleri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">1: A vs B (Kazanan A, A DP > B DP)</td>
+                    <td>1-8</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
+                </tr>
+                <tr>
+                    <td>9-17</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>18-26</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>27-47</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>48+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">2: A vs B (Kazanan A, B DP > A DP)</td>
+                    <td>1-12</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
+                </tr>
+                <tr>
+                    <td>13-25</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>26-38</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>39-53</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>54+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (32 Altın 28 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">3: A vs B (Kazanan A, A DP = B DP)</td>
+                    <td>1-10</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
+                </tr>
+                <tr>
+                    <td>11-21</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>22-32</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>33-43</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>50+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">4: A İttifakı vs B İttifakı (Kazanan A İttifakı, A DP > B DP)</td>
+                    <td>1-16</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
+                </tr>
+                <tr>
+                    <td>17-33</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>34-50</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>66-97</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>98+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">5: A İttifakı vs B İttifakı (Kazanan A İttifakı, B DP > A DP)</td>
+                    <td>1-24</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
+                </tr>
+                <tr>
+                    <td>25-49</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>50-74</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>75-122</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>123+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (32 Altın 28 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">6: A İttifakı vs B İttifakı (Kazanan A İttifakı, A DP = B DP)</td>
+                    <td>1-20</td>
+                </tr>
+                <tr>
+                    <td>21-41</td>
+                    <td>Dominyon yapmak/Yapı sahiplenme & Savaş Tazminatı (18 Altın, 10 DP)</td>
+                </tr>
+                <tr>
+                    <td>42-62</td>
+                    <td>Uydu yapmak & Yapı sahiplenme/Toprak alma (Max:24x24x24) & Savaş Tazminatı (20 Altın, 15 DP) Kaynak/Ekipman sınırı ekleme (ÖRN:Max 64 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>63-102</td>
+                    <td>Koloni yapmak & Yapı sahiplenme/Toprak alma (Max:32x32x32) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 48 Altın vb.)</td>
+                </tr>
+                <tr>
+                    <td>103+</td>
+                    <td>Tam kukla yapmak & Yapı sahiplenme & Toprak alma (Max:36x36x36) & Savaş Tazminatı (24 Altın 20 DP) & Kaynak/Ekipman sınırı ekleme (ÖRN:Max 35 Altın vb.)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <div class="rule-section">
-        <h2>5️⃣ Vassal / Kukla Devlet Sistemi</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tür</th>
-                    <th>Özerklik</th>
-                    <th>Vergi (Gerçek hayatta her hafta)</th>
-                    <th>Savaş / Diplomasi</th>
-                    <th>Kısıtlamalar</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dominyon</td>
-                    <td>Yüksek</td>
-                    <td>Altın %10, DP %5</td>
-                    <td>Efendi çağırsa katılmak zorunda değil</td>
-                    <td>Kendi diplomasi hakları var</td>
-                </tr>
-                <tr>
-                    <td>Uydu Devlet</td>
-                    <td>Orta</td>
-                    <td>Altın %20, DP %10</td>
-                    <td>Efendi yanında savaşa katılır</td>
-                    <td>Bağımsız savaş/diplomasi yok</td>
-                </tr>
-                <tr>
-                    <td>Koloni</td>
-                    <td>Düşük</td>
-                    <td>Altın %40, DP %20</td>
-                    <td>Efendinin izni olmadan hareket edemez</td>
-                    <td>Diplomasi yok, ekipmanların yarısı efendiye gider</td>
-                </tr>
-                <tr>
-                    <td>Tam Kukla</td>
-                    <td>Yok</td>
-                    <td>Altın %60, DP %40</td>
-                    <td>Tamamen efendinin kontrolünde</td>
-                    <td>Bağımsızlık yok, efendi istediği zaman ilhak edebilir ve ülkesine asker/vatandaş/</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <pre>
+    <div class="rule-section">
+        <h2>5️⃣ Vassal / Kukla Devlet Sistemi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tür</th>
+                    <th>Özerklik</th>
+                    <th>Vergi (Gerçek hayatta her hafta)</th>
+                    <th>Savaş / Diplomasi</th>
+                    <th>Kısıtlamalar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dominyon</td>
+                    <td>Yüksek</td>
+                    <td>Altın %10, DP %5</td>
+                    <td>Efendi çağırsa katılmak zorunda değil</td>
+                    <td>Kendi diplomasi hakları var</td>
+                </tr>
+                <tr>
+                    <td>Uydu Devlet</td>
+                    <td>Orta</td>
+                    <td>Altın %20, DP %10</td>
+                    <td>Efendi yanında savaşa katılır</td>
+                </tr>
+                <tr>
+                    <td>Koloni</td>
+                    <td>Düşük</td>
+                    <td>Altın %40, DP %20</td>
+                    <td>Efendinin izni olmadan hareket edemez</td>
+                    <td>Diplomasi yok, ekipmanların yarısı efendiye gider</td>
+                </tr>
+                <tr>
+                    <td>Tam Kukla</td>
+                    <td>Yok</td>
+                    <td>Altın %60, DP %40</td>
+                    <td>Tamamen efendinin kontrolünde</td>
+                    <td>Bağımsızlık yok, efendi istediği zaman ilhak edebilir ve ülkesine asker/vatandaş/</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <pre>
 Efendi barış antlaşmasının tarihi geçtikten sonra kuklasına özerkliğini düşürme talebinde bulunabilir, kuklanın kabul edip etmemesi durumu DP farkına göre değişkenlik gösterebilir.
-        </pre>
+        </pre>
 
-        <h3>Özerklik Düşüş Kuralları</h3>
-        <pre>
+        <h3>Özerklik Düşüş Kuralları</h3>
+        <pre>
 Tür: Dominyon
 DP Farkı: 64+ --> Kukla özerkliğinin "Uydu Devlet" kategorisine düşürülmesini kabul etmek zorundadır, kabul etmezse bu bir savaş sebebidir.
 
@@ -373,140 +379,139 @@ Tür: Koloni
 DP Farkı: 128+ --> Kukla özerkliğinin "Tam Kukla" kategorisine düşürülmesini kabul etmek zorundadır, kabul etmezse bu bir savaş sebebidir.
 
 Özerklik düşüşler arasında en az bir hafta olmalıdır. (gerçek hayat saatine göre)
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>6️⃣ İdeolojiler & Kısaca Tanımları</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>İdeoloji</th>
-                    <th>Tanım</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Liberalizm</td>
-                    <td>Oyuncuların özgürce ticaret yapması, kendi kurallarını koyması.</td>
-                </tr>
-                <tr>
-                    <td>Sosyalizm</td>
-                    <td>Kaynakların ortak depoda toplanıp eşit dağıtılması. (sınıfsızlandırma vardır fakat komünizmde ki gibi hiç yok değildir)</td>
-                </tr>
-                <tr>
-                    <td>Komünizm</td>
-                    <td>Sınıfsız toplum hedefleyen, tüm mülkiyetin ortak olduğu radikal eşitlikçi ideoloji.</td>
-                </tr>
-                <tr>
-                    <td>Faşizm</td>
-                    <td>Tek liderin mutlak kontrolü, kurallara sıkı bağlılık.</td>
-                </tr>
-                <tr>
-                    <td>Nasyonalizm</td>
-                    <td>Ulusal kimliği ve bağımsızlığı en yüksek değer olarak gören ideoloji.</td>
-                </tr>
-                <tr>
-                    <td>Anarşizm</td>
-                    <td>Hiçbir kural yok, herkes istediğini yapıyor (sadece ülke sınırları içerisinde).</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <div class="rule-section">
+        <h2>6️⃣ İdeolojiler & Kısaca Tanımları</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>İdeoloji</th>
+                    <th>Tanım</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Liberalizm</td>
+                    <td>Oyuncuların özgürce ticaret yapması, kendi kurallarını koyması.</td>
+                </tr>
+                <tr>
+                    <td>Sosyalizm</td>
+                    <td>Kaynakların ortak depoda toplanıp eşit dağıtılması. (sınıfsızlandırma vardır fakat komünizmde ki gibi hiç yok değildir)</td>
+                </tr>
+                <tr>
+                    <td>Komünizm</td>
+                    <td>Sınıfsız toplum hedefleyen, tüm mülkiyetin ortak olduğu radikal eşitlikçi ideoloji.</td>
+                </tr>
+                <tr>
+                    <td>Faşizm</td>
+                    <td>Tek liderin mutlak kontrolü, kurallara sıkı bağlılık.</td>
+                </tr>
+                <tr>
+                    <td>Nasyonalizm</td>
+                    <td>Ulusal kimliği ve bağımsızlığı en yüksek değer olarak gören ideoloji.</td>
+                </tr>
+                <tr>
+                    <td>Anarşizm</td>
+                    <td>Hiçbir kural yok, herkes istediğini yapıyor (sadece ülke sınırları içerisinde).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <div class="rule-section">
-        <h2>7️⃣ Yönetim Biçimleri & Kısaca Tanımları</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Yönetim Biçimi</th>
-                    <th>Tanım</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Demokrasi</td>
-                    <td>Halkın seçimle yönetime katıldığı sistem.</td>
-                </tr>
-                <tr>
-                    <td>Monarşi</td>
-                    <td>Yönetimin kral/kraliçe gibi tek kişide toplandığı, genellikle kalıtsal sistem.</td>
-                </tr>
-                <tr>
-                    <td>Oligarşi</td>
-                    <td>Küçük bir elit grubun iktidarı elinde tuttuğu yönetim biçimi.</td>
-                </tr>
-                <tr>
-                    <td>Diktatörlük</td>
-                    <td>Tek kişinin mutlak güç sahibi olduğu, muhalefetin olmadığı sistem.</td>
-                </tr>
-                <tr>
-                    <td>Cumhuriyet</td>
-                    <td>Halkın temsilciler aracılığıyla yönetime katıldığı, genellikle seçimle işleyen sistem.</td>
-                </tr>
-                <tr>
-                    <td>Teokrasi</td>
-                    <td>Dini kuralların ve liderlerin yönetimde belirleyici olduğu sistem.</td>
-                </tr>
-                <tr>
-                    <td>Askerî yönetim (Cunta)</td>
-                    <td>Ordunun doğrudan iktidarı ele aldığı yönetim biçimi.</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <div class="rule-section">
+        <h2>7️⃣ Yönetim Biçimleri & Kısaca Tanımları</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Yönetim Biçimi</th>
+                    <th>Tanım</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Demokrasi</td>
+                    <td>Halkın seçimle yönetime katıldığı sistem.</td>
+                </tr>
+                <tr>
+                    <td>Monarşi</td>
+                    <td>Yönetimin kral/kraliçe gibi tek kişide toplandığı, genellikle kalıtsal sistem.</td>
+                </tr>
+                <tr>
+                    <td>Oligarşi</td>
+                    <td>Küçük bir elit grubun iktidarı elinde tuttuğu yönetim biçimi.</td>
+                </tr>
+                <tr>
+                    <td>Diktatörlük</td>
+                    <td>Tek kişinin mutlak güç sahibi olduğu, muhalefetin olmadığı sistem.</td>
+                </tr>
+                <tr>
+                    <td>Cumhuriyet</td>
+                    <td>Halkın temsilciler aracılığıyla yönetime katıldığı, genellikle seçimle işleyen sistem.</td>
+                </tr>
+                <tr>
+                    <td>Teokrasi</td>
+                    <td>Dini kuralların ve liderlerin yönetimde belirleyici olduğu sistem.</td>
+                </tr>
+                <tr>
+                    <td>Askerî yönetim (Cunta)</td>
+                    <td>Ordunun doğrudan iktidarı ele aldığı yönetim biçimi.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <div class="rule-section">
-        <h2>8️⃣ Hükümetler & Kısaca Tanımları</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Hükümet</th>
-                    <th>Tanım</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Demokratik Rejim</td>
-                    <td>Halkın seçimler yoluyla yönetime katıldığı, özgürlüklerin ve çoğulculuğun korunduğu sistem.</td>
-                </tr>
-                <tr>
-                    <td>Otoriter Rejim</td>
-                    <td>Güçlü merkezi otoritenin siyasi hakları ve özgürlükleri sınırladığı, muhalefetin zayıf olduğu yönetim biçimi.</td>
-                </tr>
-                <tr>
-                    <td>Totaliter Rejim</td>
-                    <td>Devletin resmi ideolojiye dayanarak siyasal, toplumsal ve ekonomik yaşamın tüm boyutlarını mutlak kontrol ettiği sistem.</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <div class="rule-section">
+        <h2>8️⃣ Hükümetler & Kısaca Tanımları</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hükümet</th>
+                    <th>Tanım</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Demokratik Rejim</td>
+                    <td>Halkın seçimler yoluyla yönetime katıldığı, özgürlüklerin ve çoğulculuğun korunduğu sistem.</td>
+                </tr>
+                <tr>
+                    <td>Otoriter Rejim</td>
+                    <td>Güçlü merkezi otoritenin siyasi hakları ve özgürlükleri sınırladığı, muhalefetin zayıf olduğu yönetim biçimi.</td>
+                </tr>
+                <tr>
+                    <td>Totaliter Rejim</td>
+                    <td>Devletin resmi ideolojiye dayanarak siyasal, toplumsal ve ekonomik yaşamın tüm boyutlarını mutlak kontrol ettiği sistem.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <div class="rule-section">
-        <h2>9️⃣ Devlet Kurma, Yönetme & Vatandaşlık</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>9️⃣ Devlet Kurma, Yönetme & Vatandaşlık</h2>
+        <pre>
 Devlet Kurma:
 Devlet kurmak için bir başkent belirlemeniz gerekir ve bunu sonradan değiştirebilirsiniz, başkentiniz için güzel bir bina yapmayı düşünebilirsiniz. (zorunlu değil ama belli bir kordinatta olmalı)
 Devletin olduğunu belirtmesi için bir not olmalı ve devlet kitabının olduğu bir sandık/varil olmalı, ve sandığın üzerinde "Devlet Kitabı" yazan bir tabela olmalı.
 
 Devlet kurmak için bir "Kitap ve Tüy"e ihtiyacınız vardır. Kitabı şöyle düzenlemelisiniz;
- ________________________________________
-|                               Sayfa 1  |
+ ________________________________________
+|                               Sayfa 1  |
 |----------------------------------------|
-| |     [Ülkenin İsmi] Devlet Kitabı     |
-| |                                      |
-| |  Başkent: [B. Kordinatı ve varsa adı]|
-| |  Lider: [Ülkenin Lideri ve lakabı]   |
-| |  İdeoloji: [Ülkenin İdeolojisi]      |
-| |  Yönetim Biçimi: [Ülkenin Yönetim B.]|
-| |  Rejim: [Ülkenin Rejimi]             |
-| |                                      |
-| |                                      |
-| |                                      |
-| |                                      |
-| |                                      |
-| |                                      |
-| |                                      |
+| |     [Ülkenin İsmi] Devlet Kitabı     |
+| |                                      |
+| |  Başkent: [B. Kordinatı ve varsa adı]|
+| |  Lider: [Ülkenin Lideri ve lakabı]   |
+| |  İdeoloji: [Ülkenin İdeolojisi]      |
+| |  Yönetim Biçimi: [Ülkenin Yönetim B.]|
+| |  Rejim: [Ülkenin Rejimi]             |
+| |                                      |
+| |                                      |
+| |                                      |
+| |                                      |
+| |                                      |
+| |                                      |
 | |______________________________________|
 
 NOT1: Eğer ülkede cumhurbaşkanı ve başkan varsa devlet kitabında "Lider" değil de "Liderler" yazmalı, ve iki isim de lakap ile birlikte yazılmalı.
@@ -517,47 +522,47 @@ Devlet yönetme ideolojiye göre değişir, vergiyi vs. şeyleri lider belirler.
 
 Vatandaşlık:
 Bir oyuncu bir ülkenin resmi vatandaşı olabilmek için oyuncuya lideri tarafından imzalanmış bir "Kitap ve Tüy" verilmeli. Kitabın içinde oyuncunun o ülkenin vatandaşlığını aldığına dair bir yazı bulunmalı.
-        </pre>
-    </div>
+        </pre>
+    </div>
 
-    <div class="rule-section">
-        <h2>1️⃣0️⃣ Ceza Sistemi (Kural İhlali)</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>İhlal</th>
-                    <th>Ceza</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Hafif Tazminat</td>
-                    <td>10 altın, 5 elmas</td>
-                </tr>
-                <tr>
-                    <td>Ağır Tazminat</td>
-                    <td>30 altın, 20 elmas</td>
-                </tr>
-                <tr>
-                    <td>Kalıcı Ban</td>
-                    <td>DP ve eşyalar sunucuya eşitçe dağıtılır</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="note">
-            Eğer YEKAP oyundaysa ve kurallarla ilgili bir değişikliği sözde yaptıysa onun sözüne karşı konulamaz ve uyulmak zorunludur. Bu kurallarda açık bulmaya çalışacak biri olursa diye yazılmış bir cümledir, itirazınızı kabul etmeyeceğim.
-            Herkes kuralları okumuş sayılır.
-        </div>
-    </div>
+    <div class="rule-section">
+        <h2>1️⃣0️⃣ Ceza Sistemi (Kural İhlali)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>İhlal</th>
+                    <th>Ceza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hafif Tazminat</td>
+                    <td>10 altın, 5 elmas</td>
+                </tr>
+                <tr>
+                    <td>Ağır Tazminat</td>
+                    <td>30 altın, 20 elmas</td>
+                </tr>
+                <tr>
+                    <td>Kalıcı Ban</td>
+                    <td>DP ve eşyalar sunucuya eşitçe dağıtılır</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            Eğer YEKAP oyundaysa ve kurallarla ilgili bir değişikliği sözde yaptıysa onun sözüne karşı konulamaz ve uyulmak zorunludur. Bu kurallarda açık bulmaya çalışacak biri olursa diye yazılmış bir cümledir, itirazınızı kabul etmeyeceğim.
+            Herkes kuralları okumuş sayılır.
+        </div>
+    </div>
 
-    <div class="rule-section">
-        <h2>Website Ve Kural Hakları</h2>
-        <pre>
+    <div class="rule-section">
+        <h2>Website Ve Kural Hakları</h2>
+        <pre>
 Website hakları egolente aittir.
 Hakları YEKAP'a aittir.
 -YEKAP
-        </pre>
-    </div>
+        </pre>
+    </div>
 
 </div>
 </body>
