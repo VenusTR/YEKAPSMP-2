@@ -7,19 +7,18 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            /* Orijinal Arka Plan Kaldırıldı */
+            /* ORİJİNAL: background: #1e1e1e; */
+            /* YENİ ARKA PLAN AYARLARI */
+            background-image: url('venus.png');
+            background-size: cover; /* Resmi tüm alanı kaplayacak şekilde ölçeklendirir */
+            background-position: center center; /* Resmi ortalar */
+            background-attachment: fixed; /* Sayfa kaydırılsa bile resmi sabit tutar */
+            background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+            /* YENİ ARKA PLAN AYARLARI SONU */
             color: #f0f0f0;
             margin: 0;
             padding: 20px;
             line-height: 1.6;
-
-            /* YENİ ARKA PLAN AYARLARI */
-            background-image: url('venus.png');
-            background-size: cover; /* Oranı koruyarak tam kaplama */
-            background-repeat: no-repeat;
-            background-attachment: fixed; /* Sayfayı kaydırırken resmin sabit kalması */
-            background-color: #1e1e1e; /* Resim yüklenmezse veya saydam ise yedek renk */
-            /* YENİ ARKA PLAN AYARLARI SONU */
         }
         .container {
             max-width: 900px;
@@ -299,6 +298,7 @@ Aşağıda belirli savaş senaryoları için olan yapılabilecek barış antlaş
                 <tr>
                     <td rowspan="5">6: A İttifakı vs B İttifakı (Kazanan A İttifakı, A DP = B DP)</td>
                     <td>1-20</td>
+                    <td>Savaş Tazminatı (15 Altın, 5 DP)</td>
                 </tr>
                 <tr>
                     <td>21-41</td>
@@ -345,6 +345,7 @@ Aşağıda belirli savaş senaryoları için olan yapılabilecek barış antlaş
                     <td>Orta</td>
                     <td>Altın %20, DP %10</td>
                     <td>Efendi yanında savaşa katılır</td>
+                    <td>Bağımsız savaş/diplomasi yok</td>
                 </tr>
                 <tr>
                     <td>Koloni</td>
@@ -511,7 +512,6 @@ Devlet kurmak için bir "Kitap ve Tüy"e ihtiyacınız vardır. Kitabı şöyle 
 | |                                      |
 | |                                      |
 | |                                      |
-| |                                      |
 | |______________________________________|
 
 NOT1: Eğer ülkede cumhurbaşkanı ve başkan varsa devlet kitabında "Lider" değil de "Liderler" yazmalı, ve iki isim de lakap ile birlikte yazılmalı.
@@ -550,7 +550,7 @@ Bir oyuncu bir ülkenin resmi vatandaşı olabilmek için oyuncuya lideri taraf�
             </tbody>
         </table>
         <div class="note">
-            Eğer YEKAP oyundaysa ve kurallarla ilgili bir değişikliği sözde yaptıysa onun sözüne karşı konulamaz ve uyulmak zorunludur. Bu kurallarda açık bulmaya çalışacak biri olursa diye yazılmış bir cümledir, itirazınızı kabul etmeyeceğim.
+            Eğer YEKAP oyundaysa ve kurallarla ilgili bir değişikliği sözde yaptıysa onun sözüne karşı konulamaz ve uyulmak zorundadır. Bu kurallarda açık bulmaya çalışacak biri olursa diye yazılmış bir cümledir, itirazınızı kabul etmeyeceğim.
             Herkes kuralları okumuş sayılır.
         </div>
     </div>
